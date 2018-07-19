@@ -1,1 +1,2 @@
 boot.js filter=lfs diff=lfs merge=lfs -text
+liblkl.js filter=lfs diff=lfs merge=lfs -text
