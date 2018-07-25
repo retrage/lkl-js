@@ -1,18 +1,18 @@
-# lkl.js: Running Linux Kernel on JavaScript *Directly*
+# LKL.js: Running Linux Kernel on JavaScript *Directly*
 
-[lkl.js](https://github.com/retrage/lkl-js) is
+[LKL.js](https://github.com/retrage/lkl-js) is
 [Linux Kernel Library](https://github.com/lkl/linux) ported to JavaScript
 using [Emscripten](https://github.com/kripken/emscripten).
 Unlike [JSLinux](https://bellard.org/jslinux/),
-lkl.js includes a Linux kernel fully written in JavaScript and runs without
+LKL.js includes a Linux kernel fully written in JavaScript and runs without
 emulators.
 
-lkl.js just boots Linux kernel and still completely useless.
+LKL.js just boots Linux kernel and still completely useless.
 It shows how Emscripten is powerful and how Linux kernel is flexible.
 
 ## Demo
 
-lkl.js requires SharedArrayBuffer for pthread support.
+LKL.js requires SharedArrayBuffer for pthread support.
 SharedArrayBuffer is disabled by default due to
 [Spectre](https://meltdownattack.com/) mitigation in Mozilla Firefox.
 Please enable it. (`javascript.options.shared_memory` in Mozilla Firefox)
