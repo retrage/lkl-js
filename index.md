@@ -6,6 +6,8 @@ using [Emscripten](https://github.com/kripken/emscripten).
 Unlike [JSLinux](https://bellard.org/jslinux/),
 LKL.js includes a Linux kernel fully written in JavaScript and runs without
 emulators.
+For more details,
+read my [blog post](https://retrage.github.io/2018/07/25/lkl-js-en.html)
 
 LKL.js just boots Linux kernel and still completely useless.
 It shows how Emscripten is powerful and how Linux kernel is flexible.
